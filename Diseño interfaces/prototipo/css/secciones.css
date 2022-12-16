@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.secciones{
+	display: flex;
+	margin-left: 125px;
+}
+
+.secciones div{
+	margin: 50px;
+}
+
+/*Titulo de las diferentes secciones*/
+.secciones h1{
+	font-family: 'Cinzel Decorative', cursive;
+	color: black;
+	-webkit-text-stroke: 0.1px rgb(231, 179, 67);
+	text-align: center;
+}
+
+/*Estilo de las imagenes del producto*/
+.secciones img{
+	width: 300px;
+	height: 300px;
+	border:5px solid black;
+	border-radius: 5px;
+}
+
+/*Banner publicitario*/
+.banner{
+	display: flex;
+	justify-content:center;
+	width: 100%;
+}
+
+/*Imagen del banner*/
+.banner img{
+	width: 84%;
+	height: 600px;
+	border: 10px groove;
+	border-radius: 5px;
+}
+
